@@ -484,10 +484,10 @@ function canvas1()
         snap: "frame",
         ease: `none`,
         scrollTrigger: {
-            scrub: 0.15,
+            scrub: 1,
             trigger: `#page18`,
             //   set start end according to preference
-            start: `top top`,
+            start: `top end`,
             end: `80% top`,
             scroller: `#main`,
         },
@@ -529,7 +529,7 @@ function canvas1()
         // markers:true,
         scroller: `#main`,
         //   set start end according to preference
-        start: `top top`,
+        start: `top end`,
         end: `80% top`,
     });
 }
