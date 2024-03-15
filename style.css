@@ -32,7 +32,8 @@ html, body{
     width: 50vw;
     background-color: black;
     color: white;
-    position: absolute;
+    position: fixed;
+    z-index: 10000;
 
     top: 0%;
     left: 50%;
@@ -154,7 +155,7 @@ html, body{
 #page3-upper-inner{
     position: absolute;
     bottom: 0%;
-    height: 50%;
+    height: auto;
     width: 100%;
     /* background-color: blue; */
 
@@ -174,6 +175,8 @@ html, body{
     bottom: 7%;
     left: 50%;
     transform: translateX(-50%);
+    /* align-items: center;
+    justify-content: center; */
     padding: 15px 30px;
     border: 1px solid black;
     font-weight: 500;
@@ -207,14 +210,16 @@ html, body{
 #page5{
     display: flex;
     position: relative;
-    height: 60vh;
+    height: auto;
     width: 100vw;
+    padding: 10vh 0;
+    /* padding-right: 5vw; */
     background-color: white;
 }
 
 .left5{
     position: relative;
-    height: 100%;
+    height: auto;
     width: 40%;
     /* background-color: blue; */
 }
@@ -223,7 +228,7 @@ html, body{
     position: absolute;
     left:50%;
     transform: translateX(-50%);
-    top: 10%;
+    top: 0%;
 
 }
 .right5{
@@ -239,7 +244,8 @@ html, body{
     flex-direction: column;
 }
 .right5>h3{
-    font-size: 1.5vw;
+    font-size: 1.2vw;
+    font-weight: 600;
     width: 60%;
     color: rgb(92, 86, 86);
 }
@@ -251,7 +257,7 @@ html, body{
     font-weight: 400;
     border-radius: 50px;
     font-size: 1.5vw;
-    margin-top: 2vw;
+    margin-top: 5vw;
 }
 
 #page6{
@@ -260,9 +266,9 @@ html, body{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-
+    padding: 10vh 0;
     position: relative;
-    height: 70vh;
+    height: auto;
     width: 100vw;
     background-color: #F5F5F7;
 }
@@ -275,9 +281,10 @@ html, body{
     font-size: 4vw;
 }
 #page6>p{
+    margin-top: 7vh;
     font-size: 1.4vw;
-    width: 65%;
-    font-weight: 700;
+    width: 50%;
+    font-weight: 600;
     color: #86868B;
 }
 

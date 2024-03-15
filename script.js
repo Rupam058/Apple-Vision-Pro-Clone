@@ -345,7 +345,7 @@ function canvas()
         return data.split("\n")[index];
     }
 
-    const frameCount = 198;
+    const frameCount = 198; // number of frames
 
     const images = [];
     const imageSeq = {
